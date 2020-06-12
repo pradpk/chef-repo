@@ -5,7 +5,7 @@
 - [package](#Using-package-resource)
 
 
-##<a name="cookbook_file"></a>Using cookbook_file resource
+## Using cookbook_file resource
 - Cookbook_file resource is used to transfer files from cookbook_name/files to the specified path on the node.
 - Create a new file within a cookbook.
 ```
@@ -35,18 +35,20 @@ end
 ```
 
 ## Using package resource
-- Template lets you create file content using variables from Embedded Ruby template (ERB).
-- Create a new template within a cookbook.
-<br><code>chef generate template info</code>
-- Edit templates/info.erb.
+- package resource can be used to manage the installation. 
+- Sample for a package resource.
 ```
-  Hostname: <%= node['hostname'] %>
-  Ipaddress: <%= node['ipaddress'] %>
+package 'httpd' do
+  action :install
+end
 ```
-- Edit the recipe file to include info.erb.
+
+## Using service resource
+- service resource is used to manage a service.
+- Sample for a service resource.
 ```
-template '/etc/motd' do
-  source 'info.erb'
+service 'httpd' do
+  action [:enable, :start]
 end
 ```
 

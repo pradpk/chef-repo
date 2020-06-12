@@ -1,0 +1,1 @@
+This cookbooks is to install apache server on the node and access the index page from the host.
