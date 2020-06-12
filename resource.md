@@ -1,4 +1,4 @@
-#Cookbook Resources
+# Cookbook Resources
 
 - [cookbook_file](#cookbook_file)
 - [template](#Using-template-resource)
@@ -18,7 +18,7 @@ cookbook_file '/etc/motd' do
 end
 ```
 
-##Using template resource
+## Using template resource
 - Template lets you create file content using variables from Embedded Ruby template (ERB).
 - Create a new template within a cookbook.
 <br><code>chef generate template info</code>
@@ -34,7 +34,7 @@ template '/etc/motd' do
 end
 ```
 
-##Using package resource
+## Using package resource
 - Template lets you create file content using variables from Embedded Ruby template (ERB).
 - Create a new template within a cookbook.
 <br><code>chef generate template info</code>
