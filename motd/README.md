@@ -1,0 +1,1 @@
+This cookbooks provides samples to use the basic resources and configuration within Chef.
