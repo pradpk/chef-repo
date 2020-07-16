@@ -44,3 +44,4 @@ end
 <br><code>kitchen login default-centos-7</code>
 
 [Using Cookbook resources](resource.md)
+[Chef Server](chefserver.md)

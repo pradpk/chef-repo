@@ -52,5 +52,15 @@ service 'httpd' do
 end
 ```
 
+##Using remote_file resource
+- remote_file resource is used to download resources.
+
+
+# Using attributes
+
+- Attribute represent information about your node. We can also set attributes in Chef recipe. 
+- Priority - ohai attributes > attributes in recipe > attributes in attribute file. 
+
+
 
 

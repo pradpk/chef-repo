@@ -1,5 +1,5 @@
 
-Welcome to Apache Server.
-<br>Ip Address: <%= node['ipaddress'] %>
+Welcome to <%= node['apache']['message'] %>
+<br><%= node['apache']['ipaddress'] %>: <%= node['ipaddress'] %>
 <br>Platform: <%= node['platform'] %>
 <br>Platform version: <%= node['platform_version'] %>
