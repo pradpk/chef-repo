@@ -43,5 +43,5 @@ end
 <br><code>kitchen converge default-centos-7</code>
 <br><code>kitchen login default-centos-7</code>
 
-[Using Cookbook resources](resource.md)
+[Using Cookbook resources](resource.md) <br>
 [Chef Server](chefserver.md)
